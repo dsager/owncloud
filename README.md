@@ -23,7 +23,13 @@ docker-compose up -d
 docker-compose ps
 ```
 
+Open in browser
+```
+xdg-open http://localhost
+```
+
 Run bash shell in container
+(then use `occ` command, for example)
 ```
 docker-compose exec owncloud bash
 ```
